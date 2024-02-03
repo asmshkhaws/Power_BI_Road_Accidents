@@ -1,0 +1,369 @@
+{
+  "config": "{\"version\":\"5.50\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU11\",\"version\":\"5.50\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "ReportSection",
+      "config": "{}",
+      "name": "Pod",
+      "parameters": "[{\"name\":\"Param_Filterffcdebda94bf8c0ba23e\",\"boundFilter\":\"Filterffcdebda94bf8c0ba23e\",\"fieldExpr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Number_of_Vehicles\"}},\"asAggregation\":true}]",
+      "type": 1
+    }
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Background_For_Power_BI_Projec572091639480633.jpg",
+            "path": "Background_For_Power_BI_Projec572091639480633.jpg",
+            "type": 100
+          },
+          {
+            "name": "Bike_31001023972126287.png",
+            "path": "Bike_31001023972126287.png",
+            "type": 100
+          },
+          {
+            "name": "Bus8659803588129535.png",
+            "path": "Bus8659803588129535.png",
+            "type": 100
+          },
+          {
+            "name": "Car509052925554011.png",
+            "path": "Car509052925554011.png",
+            "type": 100
+          },
+          {
+            "name": "Other0698276428395257.png",
+            "path": "Other0698276428395257.png",
+            "type": 100
+          },
+          {
+            "name": "Van29474666079512013.png",
+            "path": "Van29474666079512013.png",
+            "type": 100
+          },
+          {
+            "name": "tractro_27277326183669166.png",
+            "path": "tractro_27277326183669166.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU11",
+            "path": "BaseThemes/CY23SU11.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"relationships\":[{\"source\":\"cb0a88886cdfc8f1b54e\",\"target\":\"882ed825a1ff3facf7eb\",\"type\":1},{\"source\":\"cb0a88886cdfc8f1b54e\",\"target\":\"e80e863aec4b8b8c3f07\",\"type\":1},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"3f2edcd5b011ddadff11\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"ee6d8f864a57d16c4cf5\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"283d6b0f147bd38d8175\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"e80e863aec4b8b8c3f07\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"882ed825a1ff3facf7eb\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"ac14ebc67c4a7458b5af\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"cb0a88886cdfc8f1b54e\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"0c50dbe1819cf4092e8d\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"ceb3b4c7c02556684e29\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"c97b96b70efc874f98c2\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"62609d7e7d45ef63c541\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"b4d9de75df15b09dfa1b\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"1d766c3c33c2c545fc5c\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"f1240363ecac34b64f3a\",\"type\":3},{\"source\":\"2c5a3c63e3e6db192c05\",\"target\":\"f3721c322e36ad8607ce\",\"type\":3},{\"source\":\"e80e863aec4b8b8c3f07\",\"target\":\"882ed825a1ff3facf7eb\",\"type\":1},{\"source\":\"e80e863aec4b8b8c3f07\",\"target\":\"cb0a88886cdfc8f1b54e\",\"type\":1},{\"source\":\"882ed825a1ff3facf7eb\",\"target\":\"e80e863aec4b8b8c3f07\",\"type\":1},{\"source\":\"882ed825a1ff3facf7eb\",\"target\":\"cb0a88886cdfc8f1b54e\",\"type\":1}],\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Background For Power BI Project.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Background_For_Power_BI_Projec572091639480633.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}]}}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[{\"name\":\"Filterffcdebda94bf8c0ba23e\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Number_of_Vehicles\"}},\"type\":\"Categorical\",\"howCreated\":5}]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"09134018b017e1946385\",\"layouts\":[{\"id\":0,\"position\":{\"x\":265.4826254826255,\"y\":91.73745173745174,\"z\":1000,\"width\":232.12355212355212,\"height\":116.75675675675676,\"tabOrder\":1000}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0}}",
+          "height": 116.76,
+          "width": 232.12,
+          "x": 265.48,
+          "y": 91.74,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"0c50dbe1819cf4092e8d\",\"layouts\":[{\"id\":0,\"position\":{\"height\":39.03793701958839,\"width\":90.73825503355704,\"x\":75.32172272138936,\"y\":76.93521734282771,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.YoY_Casualties\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"YoY_Casualties\"},\"Name\":\"Data.YoY_Casualties\",\"NativeReferenceName\":\"YoY_Casualties\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"YoY_Casualties\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"aedaa71ce1a1636271c0\"}",
+          "filters": "[{\"name\":\"Filter41d5a7f88ef0fe7d72b5\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Accident_Severity\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Accident_Severity\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Serious'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "height": 39.04,
+          "width": 90.74,
+          "x": 75.32,
+          "y": 76.94,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"1a65c9841d1247a6e316\",\"layouts\":[{\"id\":0,\"position\":{\"height\":116.75675675675679,\"width\":232.12355212355212,\"x\":15.28957528957529,\"y\":91.73745173745174,\"z\":0,\"tabOrder\":0}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0}}",
+          "height": 116.76,
+          "width": 232.12,
+          "x": 15.29,
+          "y": 91.74,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"1d1695d6b825a3cee8b6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1029.4407158836689,\"y\":12.885906040268456,\"z\":20000,\"width\":237.67337807606262,\"height\":58.702460850111855,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.Weather_Conditions (groups)\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"GroupRef\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Weather_Conditions (groups)\",\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Weather_Conditions\"}}]},\"Name\":\"Data.Weather_Conditions (groups)\",\"NativeReferenceName\":\"Weather_Conditions (groups)\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Weather_Conditions'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":-0.25}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 58.70,
+          "width": 237.67,
+          "x": 1029.44,
+          "y": 12.89,
+          "z": 20000.00
+        },
+        {
+          "config": "{\"name\":\"1d766c3c33c2c545fc5c\",\"layouts\":[{\"id\":0,\"position\":{\"height\":39.03793701958839,\"width\":90.73825503355704,\"x\":75.32172272138936,\"y\":76.93521734282771,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.YoY_Casualties\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"YoY_Casualties\"},\"Name\":\"Data.YoY_Casualties\",\"NativeReferenceName\":\"YoY_Casualties\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"YoY_Casualties\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"29a21794e714cf36abb5\"}",
+          "filters": "[{\"name\":\"Filter41d5a7f88ef0fe7d72b5\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Accident_Severity\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Accident_Severity\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Fatal'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "height": 39.04,
+          "width": 90.74,
+          "x": 75.32,
+          "y": 76.94,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"268aa1e878b4177e9d09\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":232.12355212355212,\"height\":77.83783783783784,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.CY_Accidents\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Accidents\"},\"Name\":\"Data.CY_Accidents\",\"NativeReferenceName\":\"CY_Accidents\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Accidents\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"40D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total CY Accidents'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}},\"parentGroupName\":\"09134018b017e1946385\"}",
+          "filters": "[]",
+          "height": 77.84,
+          "width": 232.12,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"283d6b0f147bd38d8175\",\"layouts\":[{\"id\":0,\"position\":{\"x\":24.340044742729305,\"y\":229.082774049217,\"z\":13000,\"width\":214.7651006711409,\"height\":35.79418344519016,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Casualties by Vehicle Type\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\",\"color\":\"#e6e6e6\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 35.79,
+          "width": 214.77,
+          "x": 24.34,
+          "y": 229.08,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"29a21794e714cf36abb5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":518.2997762863534,\"y\":91.63310961968679,\"z\":2000,\"width\":239.10514541387022,\"height\":115.9731543624161,\"tabOrder\":18000}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0}}",
+          "height": 115.97,
+          "width": 239.11,
+          "x": 518.30,
+          "y": 91.63,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"2c5a3c63e3e6db192c05\",\"layouts\":[{\"id\":0,\"position\":{\"x\":264.8769574944071,\"y\":229.082774049217,\"z\":14000,\"width\":443.84787472035794,\"height\":220.49217002237134,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Calendar.Month\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Data.Number_of_Casualties)\"}],\"Series\":[{\"queryRef\":\"Calendar.Date.Variation.Date Hierarchy.Year\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Calendar\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Month\"},\"Name\":\"Calendar.Month\",\"NativeReferenceName\":\"Month\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Number_of_Casualties\"}},\"Function\":0},\"Name\":\"Sum(Data.Number_of_Casualties)\",\"NativeReferenceName\":\"Sum of Number_of_Casualties\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"Calendar.Date.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"Date Year\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Name\":\"Variation\",\"Property\":\"Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}],\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"y2Axis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"seriesLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"seriesColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0.4}}}}},\"seriesFontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}}}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"LocalDateTable_cce75b16-3b07-4c9d-bf94-4e512016bb69\"}},\"Property\":\"Year\"}},\"Right\":{\"Literal\":{\"Value\":\"2022L\"}}}}}]}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"LocalDateTable_cce75b16-3b07-4c9d-bf94-4e512016bb69\"}},\"Property\":\"Year\"}},\"Right\":{\"Literal\":{\"Value\":\"2022L\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"LocalDateTable_cce75b16-3b07-4c9d-bf94-4e512016bb69\"}},\"Property\":\"Year\"}},\"Right\":{\"Literal\":{\"Value\":\"2021L\"}}}}}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'CY Casualties vs PY Casualties Monthly Trend'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 220.49,
+          "width": 443.85,
+          "x": 264.88,
+          "y": 229.08,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"3f2edcd5b011ddadff11\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"width\":100,\"height\":40,\"z\":19000,\"tabOrder\":21000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'back'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Back'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 100.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 19000.00
+        },
+        {
+          "config": "{\"name\":\"43e9a2d7e53cceb82938\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15.867768595041323,\"y\":264.4628099173554,\"z\":7000,\"width\":88.1542699724518,\"height\":95.20661157024794,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"tractro_27277326183669166.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 95.21,
+          "width": 88.15,
+          "x": 15.87,
+          "y": 264.46,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"5ae641ee879265f68d26\",\"layouts\":[{\"id\":0,\"position\":{\"x\":14.104683195592287,\"y\":555.3719008264463,\"z\":11000,\"width\":88.1542699724518,\"height\":79.33884297520662,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Other0698276428395257.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 79.34,
+          "width": 88.15,
+          "x": 14.10,
+          "y": 555.37,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"62609d7e7d45ef63c541\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15.867768595041323,\"y\":12.341597796143251,\"z\":5000,\"width\":553.6088154269972,\"height\":66.99724517906337,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"ROAD ACCIDENT ANALYSIS\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"DIN\",\"fontSize\":\"36pt\",\"color\":\"#e1c233\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 67.00,
+          "width": 553.61,
+          "x": 15.87,
+          "y": 12.34,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"66a2fde20b724de12ce7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1029.641873278237,\"y\":93.4435261707989,\"z\":4000,\"width\":238.01652892561987,\"height\":114.60055096418733,\"tabOrder\":20000}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0}}",
+          "height": 114.60,
+          "width": 238.02,
+          "x": 1029.64,
+          "y": 93.44,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"81804a1973d920b10a60\",\"layouts\":[{\"id\":0,\"position\":{\"x\":104.02203856749313,\"y\":278.56749311294766,\"z\":6000,\"width\":142.8099173553719,\"height\":424.90358126721765,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.Vehicle_Type (groups)\"},{\"queryRef\":\"Data.CY_Casualties\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"GroupRef\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Vehicle_Type (groups)\",\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Vehicle_Type\"}}]},\"Name\":\"Data.Vehicle_Type (groups)\",\"NativeReferenceName\":\"Vehicle_Type (groups)\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"},\"Name\":\"Data.CY_Casualties\",\"NativeReferenceName\":\"CY_Casualties\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"GroupRef\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Vehicle_Type (groups)\",\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Vehicle_Type\"}}]}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataLabels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'wf_standard-font, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"cardTitle\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'wf_standard-font, helvetica, arial, sans-serif'\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#19D20C'\"}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"card\":[{\"properties\":{\"barWeight\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 424.90,
+          "width": 142.81,
+          "x": 104.02,
+          "y": 278.57,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"85a3cce2547ca41fa4f0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":14.104683195592287,\"y\":407.2727272727273,\"z\":9000,\"width\":89.91735537190084,\"height\":84.62809917355372,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Bus8659803588129535.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 84.63,
+          "width": 89.92,
+          "x": 14.10,
+          "y": 407.27,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"882ed825a1ff3facf7eb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":731.6331096196867,\"y\":475.34675615212524,\"z\":16000,\"width\":236.24161073825502,\"height\":226.21923937360177,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Data.CY_Casualties\"}],\"Category\":[{\"queryRef\":\"Data.Light_Conditions (groups)\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"},\"Name\":\"Data.CY_Casualties\",\"NativeReferenceName\":\"CY_Casualties\"},{\"GroupRef\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Light_Conditions (groups)\",\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Light_Conditions\"}}]},\"Name\":\"Data.Light_Conditions (groups)\",\"NativeReferenceName\":\"Light_Conditions (groups)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"labelStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'Category, percent of total'\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"slices\":[{\"properties\":{\"innerRadiusRatio\":{\"expr\":{\"Literal\":{\"Value\":\"65L\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#AD5129'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Urban_or_Rural_Area\"}},\"Right\":{\"Literal\":{\"Value\":\"'Urban'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Urban_or_Rural_Area\"}},\"Right\":{\"Literal\":{\"Value\":\"'Rural'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Light_Conditions (groups)\"}},\"Right\":{\"Literal\":{\"Value\":\"'Day'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.25}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Light_Conditions (groups)\"}},\"Right\":{\"Literal\":{\"Value\":\"'Night'\"}}}}}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Casualties by Light Condition'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 226.22,
+          "width": 236.24,
+          "x": 731.63,
+          "y": 475.35,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"9a3a9747bf982bb5b336\",\"layouts\":[{\"id\":0,\"position\":{\"x\":770.2908277404921,\"y\":12.885906040268456,\"z\":21000,\"width\":237.67337807606262,\"height\":58.702460850111855,\"tabOrder\":17000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.Road_Surface_Conditions (groups)\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"GroupRef\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Road_Surface_Conditions (groups)\",\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Road_Surface_Conditions\"}}]},\"Name\":\"Data.Road_Surface_Conditions (groups)\",\"NativeReferenceName\":\"Road_Surface_Conditions (groups)\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Road_Surface_Conditions'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":-0.25}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 58.70,
+          "width": 237.67,
+          "x": 770.29,
+          "y": 12.89,
+          "z": 21000.00
+        },
+        {
+          "config": "{\"name\":\"ac14ebc67c4a7458b5af\",\"layouts\":[{\"id\":0,\"position\":{\"x\":990.7829977628635,\"y\":223.35570469798657,\"z\":18000,\"width\":277.7628635346756,\"height\":478.21029082774044,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Y\":[{\"queryRef\":\"Data.Latitude\"}],\"X\":[{\"queryRef\":\"Data.Longitude\"}],\"Category\":[{\"queryRef\":\"Data.Local_Authority_(District)\",\"active\":true}],\"Tooltips\":[{\"queryRef\":\"Sum(Data.Number_of_Casualties)\"},{\"queryRef\":\"Sum(Data.Number_of_Vehicles)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Latitude\"}},\"Function\":1},\"Name\":\"Data.Latitude\",\"NativeReferenceName\":\"Average of Latitude\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Longitude\"}},\"Function\":1},\"Name\":\"Data.Longitude\",\"NativeReferenceName\":\"Average of Longitude\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Local_Authority_(District)\"},\"Name\":\"Data.Local_Authority_(District)\",\"NativeReferenceName\":\"Local_Authority_(District)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Number_of_Casualties\"}},\"Function\":0},\"Name\":\"Sum(Data.Number_of_Casualties)\",\"NativeReferenceName\":\"Sum of Number_of_Casualties\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Number_of_Vehicles\"}},\"Function\":0},\"Name\":\"Sum(Data.Number_of_Vehicles)\",\"NativeReferenceName\":\"Sum of Number_of_Vehicles\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"bubbles\":[{\"properties\":{\"bubbleSize\":{\"expr\":{\"Literal\":{\"Value\":\"-18L\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0.2}}}}}}}],\"mapStyles\":[{\"properties\":{\"mapTheme\":{\"expr\":{\"Literal\":{\"Value\":\"'aerial'\"}}}}}],\"mapControls\":[{\"properties\":{\"autoZoom\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showZoomButtons\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"centerLatitude\":{\"expr\":{\"Literal\":{\"Value\":\"53.67758820096509D\"}}},\"centerLongitude\":{\"expr\":{\"Literal\":{\"Value\":\"-2.213050617394685D\"}}},\"zoomLevel\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"showLassoButton\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Casualties by Location'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 478.21,
+          "width": 277.76,
+          "x": 990.78,
+          "y": 223.36,
+          "z": 18000.00
+        },
+        {
+          "config": "{\"name\":\"aedaa71ce1a1636271c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":768.7052341597797,\"y\":93.4435261707989,\"z\":3000,\"width\":238.01652892561987,\"height\":114.60055096418733,\"tabOrder\":19000}}],\"singleVisualGroup\":{\"displayName\":\"Group 1\",\"groupMode\":0}}",
+          "height": 114.60,
+          "width": 238.02,
+          "x": 768.71,
+          "y": 93.44,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"b4d9de75df15b09dfa1b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":72.27799227799227,\"y\":77.83783783783785,\"z\":1000,\"width\":87.56756756756756,\"height\":38.91891891891892,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.YoY_Accidents\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"YoY_Accidents\"},\"Name\":\"Data.YoY_Accidents\",\"NativeReferenceName\":\"YoY_Accidents\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"YoY_Accidents\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"09134018b017e1946385\"}",
+          "filters": "[]",
+          "height": 38.92,
+          "width": 87.57,
+          "x": 72.28,
+          "y": 77.84,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"b8ba1e60a3a43a239563\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15.867768595041323,\"y\":340.2754820936639,\"z\":8000,\"width\":88.1542699724518,\"height\":84.62809917355372,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Bike_31001023972126287.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 84.63,
+          "width": 88.15,
+          "x": 15.87,
+          "y": 340.28,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"c5ccbfd64dff70cc9346\",\"layouts\":[{\"id\":0,\"position\":{\"x\":14.104683195592287,\"y\":476.03305785123973,\"z\":10000,\"width\":88.1542699724518,\"height\":79.33884297520662,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Car509052925554011.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 79.34,
+          "width": 88.15,
+          "x": 14.10,
+          "y": 476.03,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"c97b96b70efc874f98c2\",\"layouts\":[{\"id\":0,\"position\":{\"height\":77.12372923382098,\"width\":239.10514541387022,\"x\":0,\"y\":0,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.CY_Casualties\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"},\"Name\":\"Data.CY_Casualties\",\"NativeReferenceName\":\"CY_Casualties\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"40D\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'CY Fatal Casualties'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}},\"parentGroupName\":\"29a21794e714cf36abb5\"}",
+          "filters": "[{\"name\":\"Filter6867fa4232b29af52dc4\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Accident_Severity\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Accident_Severity\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Fatal'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "height": 77.12,
+          "width": 239.11,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"c98cf2a66d1f178ee21e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15.867768595041323,\"y\":624.1322314049587,\"z\":12000,\"width\":88.1542699724518,\"height\":79.33884297520662,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Van29474666079512013.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 79.34,
+          "width": 88.15,
+          "x": 15.87,
+          "y": 624.13,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"cb0a88886cdfc8f1b54e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":731.6331096196867,\"y\":223.35570469798657,\"z\":15000,\"width\":236.24161073825502,\"height\":226.21923937360177,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Data.Urban_or_Rural_Area\",\"active\":true}],\"Y\":[{\"queryRef\":\"Data.CY_Casualties\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Urban_or_Rural_Area\"},\"Name\":\"Data.Urban_or_Rural_Area\",\"NativeReferenceName\":\"Urban_or_Rural_Area\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"},\"Name\":\"Data.CY_Casualties\",\"NativeReferenceName\":\"CY_Casualties\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"labelStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'Category, percent of total'\"}}}}},{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"slices\":[{\"properties\":{\"innerRadiusRatio\":{\"expr\":{\"Literal\":{\"Value\":\"65L\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#AD5129'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Urban_or_Rural_Area\"}},\"Right\":{\"Literal\":{\"Value\":\"'Urban'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Urban_or_Rural_Area\"}},\"Right\":{\"Literal\":{\"Value\":\"'Rural'\"}}}}}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Casualties by Urban/Rural'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 226.22,
+          "width": 236.24,
+          "x": 731.63,
+          "y": 223.36,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"ceb3b4c7c02556684e29\",\"layouts\":[{\"id\":0,\"position\":{\"height\":77.12372923382098,\"width\":239.10514541387022,\"x\":0,\"y\":0,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.CY_Casualties\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"},\"Name\":\"Data.CY_Casualties\",\"NativeReferenceName\":\"CY_Casualties\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"40D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'CY Serious Casualties'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}},\"parentGroupName\":\"aedaa71ce1a1636271c0\"}",
+          "filters": "[{\"name\":\"Filter6867fa4232b29af52dc4\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Accident_Severity\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Accident_Severity\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Serious'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "height": 77.12,
+          "width": 239.11,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"cfeecdeed6c00f8a2b7c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":232.12355212355212,\"height\":77.83783783783784,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.CY_Casualties\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"},\"Name\":\"Data.CY_Casualties\",\"NativeReferenceName\":\"CY_Casualties\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"40D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total CY Casualties'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}},\"parentGroupName\":\"1a65c9841d1247a6e316\"}",
+          "filters": "[]",
+          "height": 77.84,
+          "width": 232.12,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"e80e863aec4b8b8c3f07\",\"layouts\":[{\"id\":0,\"position\":{\"x\":269.17225950782995,\"y\":475.34675615212524,\"z\":17000,\"width\":439.5525727069351,\"height\":226.21923937360177,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Data.Road_Type\",\"active\":true}],\"Y\":[{\"queryRef\":\"Data.CY_Casualties\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Road_Type\"},\"Name\":\"Data.Road_Type\",\"NativeReferenceName\":\"Road_Type\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"},\"Name\":\"Data.CY_Casualties\",\"NativeReferenceName\":\"CY_Casualties\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000D\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Casualties by Road_Type'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 226.22,
+          "width": 439.55,
+          "x": 269.17,
+          "y": 475.35,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"ee6d8f864a57d16c4cf5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":72.27799227799227,\"y\":77.83783783783785,\"z\":1000,\"width\":87.56756756756756,\"height\":38.91891891891892,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.YoY_Casualties\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"YoY_Casualties\"},\"Name\":\"Data.YoY_Casualties\",\"NativeReferenceName\":\"YoY_Casualties\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"YoY_Casualties\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"1a65c9841d1247a6e316\"}",
+          "filters": "[]",
+          "height": 38.92,
+          "width": 87.57,
+          "x": 72.28,
+          "y": 77.84,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"f1240363ecac34b64f3a\",\"layouts\":[{\"id\":0,\"position\":{\"height\":39.03793701958839,\"width\":90.73825503355704,\"x\":75.32172272138936,\"y\":76.93521734282771,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.YoY_Casualties\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"YoY_Casualties\"},\"Name\":\"Data.YoY_Casualties\",\"NativeReferenceName\":\"YoY_Casualties\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"YoY_Casualties\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"66a2fde20b724de12ce7\"}",
+          "filters": "[{\"name\":\"Filter41d5a7f88ef0fe7d72b5\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Accident_Severity\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Accident_Severity\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Slight'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "height": 39.04,
+          "width": 90.74,
+          "x": 75.32,
+          "y": 76.94,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"f3721c322e36ad8607ce\",\"layouts\":[{\"id\":0,\"position\":{\"height\":77.12372923382098,\"width\":239.10514541387022,\"x\":0,\"y\":0,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.CY_Casualties\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"},\"Name\":\"Data.CY_Casualties\",\"NativeReferenceName\":\"CY_Casualties\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CY_Casualties\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"40D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'CY Slight Casualties'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]}},\"parentGroupName\":\"66a2fde20b724de12ce7\"}",
+          "filters": "[{\"name\":\"Filter6867fa4232b29af52dc4\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data\"}},\"Property\":\"Accident_Severity\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Accident_Severity\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Slight'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "height": 77.12,
+          "width": 239.11,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
